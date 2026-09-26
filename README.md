@@ -88,21 +88,64 @@ A full-stack AI system designed around **workflow orchestration rather than a si
 
 ## Professional AI Engineering
 
-In my professional work, I build AI-driven engineering workflows such as:
+I build **production-oriented AI workflows for real engineering environments** — where retrieval quality, validation, orchestration, integration, and human review matter as much as model output.
 
-**User Story → Test Coverage**
+### 🤖 User Story → Test Coverage
 
-Jira requirements are contextualized, relevant TestRail knowledge is retrieved, existing coverage is checked for semantic overlap, missing cases are generated, and results can move through human review before publishing.
+A multi-stage AI workflow that turns Jira requirements into actionable TestRail coverage.
 
-**AI-powered QA & Localization**
+**Workflow**
 
-Agentic workflows for localization validation, governance enrichment, translation QA, and automated engineering checks.
+`Jira Context → Retrieval → Existing Coverage Analysis → Duplication Check → Test Generation → HITL Review → TestRail`
 
-**Enterprise AI Integrations**
+**Engineering depth**
+- Semantic retrieval over a large existing TestRail knowledge base
+- Contextualization of requirements against existing test coverage
+- Duplicate / overlap detection before generating new cases
+- Structured testcase generation with validation and human review
+- Enterprise integration across **Jira, TestRail, MongoDB and APIs**
 
-Connecting AI workflows to **GitHub, Jira, Azure DevOps, TestRail, SharePoint and APIs** so that LLM capabilities operate inside real engineering processes.
+**Scale:** 600+ existing test cases indexed for semantic retrieval, with generated coverage typically ranging from **6–12 test cases per story** depending on story complexity.
 
-> Proprietary implementation details stay private. Public projects demonstrate the underlying engineering patterns through independent implementations.
+---
+
+### 🌐 AI-Powered QA & Localization
+
+Agentic workflows for translation quality, localization validation, and governance enrichment.
+
+**Workflow**
+
+`Changed Content → Semantic Validation → Governance Signals → Resolution → Persistent Report`
+
+**Engineering depth**
+- Automated localization and translation validation
+- Semantic checks combined with governance / reviewer state
+- Deterministic resolution logic instead of relying on a single LLM response
+- Persistent machine-readable outputs for downstream engineering workflows
+- GitHub-based change detection and workflow integration
+
+The focus is not simply generating an answer — it is producing a **traceable decision that can be consumed by an engineering pipeline**.
+
+---
+
+### ⚙️ Agentic Workflow Engineering & Migration
+
+Designing and migrating multi-agent engineering workflows across AI execution environments.
+
+**Engineering focus**
+- Sequential and parallel agent orchestration
+- Context handoff and structured outputs between agents
+- Tool-driven workflows connected to enterprise systems
+- Failure handling, validation, and workflow hardening
+- Migration of an existing multi-agent solution to a **GitHub Copilot custom-agent architecture**
+
+The underlying goal is to make agentic systems **repeatable, maintainable, and deployable**, rather than treating agents as isolated prompts.
+
+---
+
+<sub><strong>Professional focus:</strong> Agentic AI · RAG & Retrieval · LLM Evaluation · AI Automation · Enterprise Integrations · Human-in-the-Loop Systems</sub>
+
+> Proprietary implementation details stay private. The public portfolio demonstrates the same engineering patterns through independent work and non-confidential examples.
 
 ## Technical Stack
 
