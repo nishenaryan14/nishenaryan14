@@ -12,14 +12,20 @@ Agentic Workflows   →   Retrieval   →   Evaluation   →   Automation   → 
 
 ## What I work on
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,typescript,langchain,fastapi,nodejs,react,nextjs,mongodb,redis,docker,githubactions" alt="Core technology stack" />
+</p>
+
 | Area | What I build |
 | --- | --- |
-| **Agentic AI** | Multi-step workflows, stateful agents, tool use, routing, reflection, HITL |
-| **LLM Systems** | Structured generation, RAG, prompt/evaluation pipelines, output validation |
-| **AI Reliability** | Semantic validation, duplication detection, quality gates, failure handling |
-| **Engineering Automation** | AI-powered test generation and developer/QA workflow automation |
-| **Enterprise AI** | Integrations across GitHub, Jira, Azure DevOps, TestRail, SharePoint and REST APIs |
-| **Software Systems** | Python, TypeScript, FastAPI, Node.js, React, MongoDB, Redis, Docker |
+| **🤖 Agentic AI** | Multi-step workflows, stateful agents, tool use, routing, reflection, HITL |
+| **🧠 LLM Systems** | Structured generation, RAG, prompt/evaluation pipelines, output validation |
+| **🛡️ AI Reliability** | Semantic validation, duplication detection, quality gates, failure handling |
+| **⚙️ Engineering Automation** | AI-powered test generation and developer/QA workflow automation |
+| **🔗 Enterprise AI** | Integrations across GitHub, Jira, Azure DevOps, TestRail, SharePoint and REST APIs |
+| **💻 Software Systems** | Python, TypeScript, FastAPI, Node.js, React, MongoDB, Redis, Docker |
+
+<sub><b>Core tools:</b> Python · LangChain / LangGraph · FastAPI · TypeScript · React / Next.js · MongoDB · Redis · Docker · GitHub Actions</sub>
 
 ## Featured Project
 
