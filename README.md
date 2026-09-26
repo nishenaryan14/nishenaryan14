@@ -4,7 +4,9 @@
 
 I build **AI systems that do real work** — not just chat interfaces.
 
-My work sits at the intersection of **agentic workflows, LLM engineering, retrieval, evaluation, and software systems**. I’m particularly interested in turning ambiguous engineering problems into workflows that can reason, use tools, validate their own outputs, and fail safely.
+My work sits at the intersection of **agentic workflows, LLM engineering, retrieval, evaluation, and software systems**. I’m especially interested in turning messy engineering problems into systems that can **reason, use tools, validate their outputs, and recover when things go wrong**.
+
+> **Build the workflow. Retrieve the right context. Validate the result. Make it reliable.**
 
 ```text
 Agentic Workflows   →   Retrieval   →   Evaluation   →   Automation   →   Reliable Delivery
@@ -84,7 +86,9 @@ A full-stack AI system designed around **workflow orchestration rather than a si
 
 **Engineering principle:** make AI behavior **structured, testable, observable, and recoverable**.
 
-→ [Explore the project](https://github.com/nishenaryan14/JobFlow-AI)
+→ [Explore JobFlow AI](https://github.com/nishenaryan14/JobFlow-AI)
+
+---
 
 ## Professional AI Engineering
 
@@ -139,7 +143,7 @@ Designing and migrating multi-agent engineering workflows across AI execution en
 - Failure handling, validation, and workflow hardening
 - Migration of an existing multi-agent solution to a **GitHub Copilot custom-agent architecture**
 
-The underlying goal is to make agentic systems **repeatable, maintainable, and deployable**, rather than treating agents as isolated prompts.
+The goal is to make agentic systems **repeatable, maintainable, and deployable**, rather than treating agents as isolated prompts.
 
 ---
 
@@ -147,46 +151,35 @@ The underlying goal is to make agentic systems **repeatable, maintainable, and d
 
 > Proprietary implementation details stay private. The public portfolio demonstrates the same engineering patterns through independent work and non-confidential examples.
 
-## Technical Stack
+## Why I Build AI This Way
 
-**AI / LLM**  
-LangGraph · LangChain · CrewAI · RAG · LLM Evaluation · Agentic Workflows
+My path into AI came through **software engineering, automation, and quality-focused engineering**. That background shaped a simple bias:
 
-**Languages**  
-Python · TypeScript · JavaScript
+> **A model output is not finished just because it looks correct.**
 
-**Backend & APIs**  
-FastAPI · Node.js · NestJS · REST APIs
+I care about what happens around the model:
 
-**Frontend**  
-React · Next.js
+`Context → Reasoning → Tool Use → Validation → Evaluation → Recovery → Human Oversight`
 
-**Data & Infrastructure**  
-MongoDB · Redis · SQLite · Docker · GitHub Actions
+Three principles guide most of my work:
 
-**Enterprise Tooling**  
-GitHub · Jira · Azure DevOps · TestRail · SharePoint
+**01 — Context before generation**  
+Good AI systems retrieve and structure the information they need before asking a model to act.
 
-## How I Think About AI Systems
+**02 — Validation before trust**  
+Outputs, tool calls, and decisions need checks — especially when they become part of an engineering workflow.
 
-I’m less interested in making a model *sound intelligent* and more interested in making the system **behave reliably**.
+**03 — Recovery before production**  
+Retries, fallbacks, checkpoints, quality gates, and human review matter when AI meets real systems.
 
-That means designing for:
+## Currently Exploring
 
-**Context → Reasoning → Tool Use → Validation → Evaluation → Recovery → Human Oversight**
+I’m interested in **Applied AI Engineering** roles where I can work on agentic systems, LLM evaluation, AI reliability, retrieval, and AI-powered engineering tools.
 
-The best AI system is not the one with the most agents.
-
-It is the one that **solves the problem predictably enough to be trusted**.
-
-## Currently Interested In
-
-Applied AI Engineering · Agentic AI · LLM Engineering · AI Systems Engineering · LLM Evaluation & Reliability · AI-powered Developer Tools
+I’m particularly drawn to problems where **AI has to integrate with existing software systems and earn trust through measurable behavior**.
 
 ## Connect
 
 [LinkedIn](https://www.linkedin.com/in/aryan-nishen/) · [Email](mailto:aryannishen27@gmail.com) · [GitHub](https://github.com/nishenaryan14)
-
----
 
 <sub>Building AI systems that move beyond demos and into useful engineering workflows.</sub>
