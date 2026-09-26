@@ -1,134 +1,108 @@
-# 👋 Hi, I'm Aryan Nishen
+# Aryan Nishen
 
-## Applied AI Engineer | Agentic AI | LLM Systems | AI Automation
+### Applied AI Engineer · Agentic Systems · LLM Engineering
 
-I build **production-oriented AI systems** that combine LLMs, agentic workflows, retrieval, evaluation, and engineering automation.
+I build **AI systems that do real work** — not just chat interfaces.
 
-My current focus is **Agentic AI, multi-agent architectures, RAG, LLM evaluation, AI-powered test generation, workflow orchestration, and enterprise AI integrations**.
+My work sits at the intersection of **agentic workflows, LLM engineering, retrieval, evaluation, and software systems**. I’m particularly interested in turning ambiguous engineering problems into workflows that can reason, use tools, validate their own outputs, and fail safely.
 
----
+```text
+Agentic Workflows   →   Retrieval   →   Evaluation   →   Automation   →   Reliable Delivery
+```
 
-## 🚀 What I Build
+## What I work on
 
-- 🤖 **Agentic AI Systems** — LangGraph, CrewAI, multi-agent workflows, tool calling, orchestration
-- 🧠 **LLM Engineering** — RAG, structured outputs, prompt engineering, evaluation and reliability
-- 🔎 **AI Evaluation** — LLM-as-a-judge, semantic similarity, duplication detection and validation
-- ⚙️ **AI Automation** — AI-powered test generation and engineering workflow automation
-- 🔗 **Enterprise Integrations** — GitHub, Jira, Azure DevOps, TestRail, SharePoint and REST APIs
-- 🐍 **Software Engineering** — Python, TypeScript, React, Node.js, NestJS, MongoDB
-- 🚢 **Delivery & Infrastructure** — FastAPI, Docker, GitHub Actions and CI/CD
+| Area | What I build |
+| --- | --- |
+| **Agentic AI** | Multi-step workflows, stateful agents, tool use, routing, reflection, HITL |
+| **LLM Systems** | Structured generation, RAG, prompt/evaluation pipelines, output validation |
+| **AI Reliability** | Semantic validation, duplication detection, quality gates, failure handling |
+| **Engineering Automation** | AI-powered test generation and developer/QA workflow automation |
+| **Enterprise AI** | Integrations across GitHub, Jira, Azure DevOps, TestRail, SharePoint and REST APIs |
+| **Software Systems** | Python, TypeScript, FastAPI, Node.js, React, MongoDB, Redis, Docker |
 
----
-
-## ⭐ Featured Project
+## Featured Project
 
 ### [JobFlow AI](https://github.com/nishenaryan14/JobFlow-AI)
 
-**An AI-powered career command center built with LangGraph.**
+**An agentic career command center built with LangGraph.**
 
-JobFlow AI is a full-stack agentic application that combines multiple AI workflows rather than a simple LLM wrapper.
+A full-stack AI system designed around **workflow orchestration rather than a single LLM prompt**.
 
-**Key engineering areas:**
+**What it demonstrates**
 
-- 🧩 LangGraph-based job discovery and decision workflows
-- 🔍 Resume intelligence and targeted job discovery
-- 🎯 Job quality gates, matching and ranking
-- 📊 AI-based ATS compatibility analysis
-- ✍️ Resume enhancement with evaluation and reflection loops
-- 🧪 LLM-as-a-judge quality evaluation
-- 🛡️ Fabrication detection and retry logic
-- 🌐 Playwright-based browser automation
-- ⚡ FastAPI + Next.js + MongoDB + Redis
-- 🐳 Docker Compose + GitHub Actions CI
+- LangGraph-based job discovery and decision workflows
+- Resume intelligence and targeted search
+- Quality gates, matching and ranking
+- AI-based ATS compatibility analysis
+- Resume rewriting with evaluation + reflection
+- LLM-as-a-judge quality checks
+- Fabrication detection and controlled retries
+- FastAPI + Next.js + MongoDB + Redis
+- Docker Compose + GitHub Actions
 
-**Architecture highlights:**
+**Engineering principle:** make AI behavior **structured, testable, observable, and recoverable**.
 
-Resume → Intelligence → Job Discovery → Quality Gate → Matching → Persistence
+→ [Explore the project](https://github.com/nishenaryan14/JobFlow-AI)
 
-Resume → Gap Analysis → Rewrite → Evaluation → Reflection → Final Output
+## Professional AI Engineering
 
-The project is designed around **structured outputs, conditional workflows, validation, failure handling, and observable AI behavior**.
+In my professional work, I build AI-driven engineering workflows such as:
 
-👉 **[Explore JobFlow AI →](https://github.com/nishenaryan14/JobFlow-AI)**
+**User Story → Test Coverage**
 
----
+Jira requirements are contextualized, relevant TestRail knowledge is retrieved, existing coverage is checked for semantic overlap, missing cases are generated, and results can move through human review before publishing.
 
-## 🧠 Professional AI Engineering
+**AI-powered QA & Localization**
 
-My professional work focuses on applying agentic AI to real engineering workflows, including:
-
-### User Story → Test Case Generation
-An AI workflow that contextualizes Jira requirements, retrieves relevant TestRail knowledge, checks for existing/duplicate coverage, generates new test cases, and supports human review before publishing.
-
-### AI-Powered QA & Localization
 Agentic workflows for localization validation, governance enrichment, translation QA, and automated engineering checks.
 
-### Enterprise AI Integrations
-Connecting AI workflows with systems such as **GitHub, Jira, Azure DevOps, TestRail and SharePoint** to turn LLM capabilities into usable engineering workflows.
+**Enterprise AI Integrations**
 
-> Proprietary implementation details are intentionally kept private. Public projects demonstrate the underlying engineering patterns through independent implementations.
+Connecting AI workflows to **GitHub, Jira, Azure DevOps, TestRail, SharePoint and APIs** so that LLM capabilities operate inside real engineering processes.
 
----
+> Proprietary implementation details stay private. Public projects demonstrate the underlying engineering patterns through independent implementations.
 
-## 🛠️ Core Stack
+## Technical Stack
 
-### AI / LLM
+**AI / LLM**  
 LangGraph · LangChain · CrewAI · RAG · LLM Evaluation · Agentic Workflows
 
-### Languages
+**Languages**  
 Python · TypeScript · JavaScript
 
-### Backend
-FastAPI · Node.js · NestJS
+**Backend & APIs**  
+FastAPI · Node.js · NestJS · REST APIs
 
-### Frontend
+**Frontend**  
 React · Next.js
 
-### Data & Infrastructure
+**Data & Infrastructure**  
 MongoDB · Redis · SQLite · Docker · GitHub Actions
 
-### Enterprise Integrations
+**Enterprise Tooling**  
 GitHub · Jira · Azure DevOps · TestRail · SharePoint
 
----
+## How I Think About AI Systems
 
-## 📈 Engineering Mindset
+I’m less interested in making a model *sound intelligent* and more interested in making the system **behave reliably**.
 
-I care about more than getting an LLM to produce an answer.
+That means designing for:
 
-I focus on building AI systems with:
+**Context → Reasoning → Tool Use → Validation → Evaluation → Recovery → Human Oversight**
 
-**Structured outputs → Retrieval → Validation → Evaluation → Reflection → Human-in-the-loop → Reliable execution**
+The best AI system is not the one with the most agents.
 
-The goal is simple:
+It is the one that **solves the problem predictably enough to be trusted**.
 
-> **Build AI systems that are not just impressive in a demo, but reliable enough to use.**
+## Currently Interested In
 
----
+Applied AI Engineering · Agentic AI · LLM Engineering · AI Systems Engineering · LLM Evaluation & Reliability · AI-powered Developer Tools
 
-## 💼 What I'm Interested In
+## Connect
 
-I'm interested in opportunities across:
-
-- Applied AI Engineering
-- Agentic AI / Multi-Agent Systems
-- LLM Engineering
-- AI Automation
-- LLM Evaluation & AI Reliability
-- AI Systems Engineering
-- AI-powered Developer / Engineering Tools
+[LinkedIn](https://www.linkedin.com/in/aryan-nishen/) · [Email](mailto:aryannishen27@gmail.com) · [GitHub](https://github.com/nishenaryan14)
 
 ---
 
-## 📫 Connect
-
-- 📧 [Email](mailto:aryannishen27@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/aryan-nishen/)
-- 💻 [GitHub](https://github.com/nishenaryan14)
-- 🧩 [LeetCode](https://leetcode.com/u/arni21is/)
-
----
-
-### ⚡ A little about me
-
-When I'm not building AI systems, you'll probably find me exploring new tech, gaming, or working on side projects.
+<sub>Building AI systems that move beyond demos and into useful engineering workflows.</sub>
