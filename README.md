@@ -1,15 +1,13 @@
 # Aryan Nishen
 
-### Applied AI Engineer · Agentic Systems · LLM Engineering
+### Applied AI Engineer | Agentic Systems | LLM Engineering
 
-I build **AI systems that do real work** — not just chat interfaces.
+I work on **AI systems that connect models to real engineering workflows**. My main areas are agentic workflows, retrieval, evaluation, automation, and the software around them.
 
-My work sits at the intersection of **agentic workflows, LLM engineering, retrieval, evaluation, and software systems**. I’m especially interested in turning messy engineering problems into systems that can **reason, use tools, validate their outputs, and recover when things go wrong**.
-
-> **Build the workflow. Retrieve the right context. Validate the result. Make it reliable.**
+I like working on the parts that are easy to overlook: getting the right context, deciding when a tool should be used, checking the output, and making sure the workflow has a sensible way to recover when something fails.
 
 ```text
-Agentic Workflows   →   Retrieval   →   Evaluation   →   Automation   →   Reliable Delivery
+Context → Reasoning → Tools → Validation → Evaluation → Reliable Execution
 ```
 
 ## What I work on
@@ -39,7 +37,7 @@ Agentic Workflows   →   Retrieval   →   Evaluation   →   Automation   → 
       AI Test Generation · Workflow Automation
     </td>
     <td align="center">
-      <strong>🔗 Enterprise AI</strong><br><br>
+      <strong>🔗 Enterprise Integrations</strong><br><br>
       GitHub · Jira · ADO · TestRail · SharePoint
     </td>
     <td align="center">
@@ -68,23 +66,23 @@ Agentic Workflows   →   Retrieval   →   Evaluation   →   Automation   → 
 
 ### [JobFlow AI](https://github.com/nishenaryan14/JobFlow-AI)
 
-**An agentic career command center built with LangGraph.**
+**A full-stack AI job search and resume platform built with LangGraph.**
 
-A full-stack AI system designed around **workflow orchestration rather than a single LLM prompt**.
+The project combines several AI workflows instead of putting a single LLM call behind a web interface.
 
-**What it demonstrates**
+**What I built**
 
-- LangGraph-based job discovery and decision workflows
-- Resume intelligence and targeted search
-- Quality gates, matching and ranking
+- LangGraph workflows for job discovery and decision making
+- Resume analysis and targeted job search
+- Job quality checks, matching, and ranking
 - AI-based ATS compatibility analysis
-- Resume rewriting with evaluation + reflection
-- LLM-as-a-judge quality checks
-- Fabrication detection and controlled retries
-- FastAPI + Next.js + MongoDB + Redis
-- Docker Compose + GitHub Actions
+- Resume rewriting with evaluation and a reflection step
+- LLM-as-a-judge checks for generated output
+- Fabrication checks and controlled retries
+- FastAPI, Next.js, MongoDB, and Redis
+- Docker Compose and GitHub Actions
 
-**Engineering principle:** make AI behavior **structured, testable, observable, and recoverable**.
+The project is built around structured outputs, conditional workflows, validation, and failure handling.
 
 → [Explore JobFlow AI](https://github.com/nishenaryan14/JobFlow-AI)
 
@@ -92,94 +90,90 @@ A full-stack AI system designed around **workflow orchestration rather than a si
 
 ## Professional AI Engineering
 
-I build **production-oriented AI workflows for real engineering environments** — where retrieval quality, validation, orchestration, integration, and human review matter as much as model output.
+Most of my professional work involves putting AI into existing engineering processes rather than building standalone demos.
 
 ### 🤖 User Story → Test Coverage
 
-A multi-stage AI workflow that turns Jira requirements into actionable TestRail coverage.
+I worked on a workflow that takes a Jira story, finds related TestRail coverage, checks for overlap, and generates missing test cases for review.
 
 **Workflow**
 
-`Jira Context → Retrieval → Existing Coverage Analysis → Duplication Check → Test Generation → HITL Review → TestRail`
+`Jira Context → Retrieval → Existing Coverage → Duplication Check → Test Generation → HITL Review → TestRail`
 
-**Engineering depth**
-- Semantic retrieval over a large existing TestRail knowledge base
-- Contextualization of requirements against existing test coverage
-- Duplicate / overlap detection before generating new cases
-- Structured testcase generation with validation and human review
-- Enterprise integration across **Jira, TestRail, MongoDB and APIs**
+**What the system does**
+- Retrieves relevant existing test cases using semantic search
+- Uses story context to judge whether coverage already exists
+- Detects duplicate or overlapping coverage before generating new cases
+- Produces structured test cases and routes them through human review
+- Connects Jira, TestRail, MongoDB, and supporting APIs
 
-**Scale:** 600+ existing test cases indexed for semantic retrieval, with generated coverage typically ranging from **6–12 test cases per story** depending on story complexity.
+**Scale:** 600+ existing test cases indexed for retrieval. A typical story produces around 6 to 12 generated test cases, depending on its size and complexity.
 
 ---
 
-### 🌐 AI-Powered QA & Localization
+### 🌐 Localization QA and Governance
 
-Agentic workflows for translation quality, localization validation, and governance enrichment.
+I also work on AI-assisted localization workflows that combine automated validation with reviewer and governance signals.
 
 **Workflow**
 
 `Changed Content → Semantic Validation → Governance Signals → Resolution → Persistent Report`
 
-**Engineering depth**
-- Automated localization and translation validation
-- Semantic checks combined with governance / reviewer state
-- Deterministic resolution logic instead of relying on a single LLM response
-- Persistent machine-readable outputs for downstream engineering workflows
-- GitHub-based change detection and workflow integration
+**What the system does**
+- Checks translated and localized content automatically
+- Combines semantic validation with reviewer and governance state
+- Applies explicit resolution rules instead of leaving the final decision to an LLM
+- Produces structured reports that can be consumed by later workflow steps
+- Uses GitHub change detection as part of the pipeline
 
-The focus is not simply generating an answer — it is producing a **traceable decision that can be consumed by an engineering pipeline**.
-
----
-
-### ⚙️ Agentic Workflow Engineering & Migration
-
-Designing and migrating multi-agent engineering workflows across AI execution environments.
-
-**Engineering focus**
-- Sequential and parallel agent orchestration
-- Context handoff and structured outputs between agents
-- Tool-driven workflows connected to enterprise systems
-- Failure handling, validation, and workflow hardening
-- Migration of an existing multi-agent solution to a **GitHub Copilot custom-agent architecture**
-
-The goal is to make agentic systems **repeatable, maintainable, and deployable**, rather than treating agents as isolated prompts.
+The important part for me is making the result **traceable and usable by the rest of the engineering pipeline**.
 
 ---
 
-<sub><strong>Professional focus:</strong> Agentic AI · RAG & Retrieval · LLM Evaluation · AI Automation · Enterprise Integrations · Human-in-the-Loop Systems</sub>
+### ⚙️ Multi-Agent Workflow Migration
 
-> Proprietary implementation details stay private. The public portfolio demonstrates the same engineering patterns through independent work and non-confidential examples.
+I have also worked on moving multi-agent engineering workflows between AI execution environments, including a migration to **GitHub Copilot custom agents**.
 
-## Why I Build AI This Way
+The work involves:
+- Running agents sequentially or in parallel
+- Passing structured context between agents
+- Connecting agents to internal and enterprise tools
+- Handling failures and validating intermediate outputs
+- Hardening the workflow so it can be maintained after migration
 
-My path into AI came through **software engineering, automation, and quality-focused engineering**. That background shaped a simple bias:
+This gave me a practical view of what changes when an agentic workflow moves from a prototype or internal platform into a different execution environment.
 
-> **A model output is not finished just because it looks correct.**
+---
 
-I care about what happens around the model:
+<sub><strong>Professional focus:</strong> Agentic AI · RAG and Retrieval · LLM Evaluation · AI Automation · Enterprise Integrations · Human-in-the-Loop Systems</sub>
 
-`Context → Reasoning → Tool Use → Validation → Evaluation → Recovery → Human Oversight`
+> Some of this work is proprietary, so the public profile focuses on the engineering patterns rather than implementation details.
 
-Three principles guide most of my work:
+## How I Approach AI Systems
 
-**01 — Context before generation**  
-Good AI systems retrieve and structure the information they need before asking a model to act.
+My background in software engineering, automation, and quality engineering has a big influence on how I build AI systems.
 
-**02 — Validation before trust**  
-Outputs, tool calls, and decisions need checks — especially when they become part of an engineering workflow.
+I don't treat a good-looking model response as the end of the workflow. I care about what happens before and after it.
 
-**03 — Recovery before production**  
-Retries, fallbacks, checkpoints, quality gates, and human review matter when AI meets real systems.
+**1. Get the context right**  
+Retrieval and structured context have a direct impact on the quality of the result.
 
-## Currently Exploring
+**2. Check the output**  
+Generated content, tool calls, and decisions should have validation where the workflow depends on them.
 
-I’m interested in **Applied AI Engineering** roles where I can work on agentic systems, LLM evaluation, AI reliability, retrieval, and AI-powered engineering tools.
+**3. Plan for failure**  
+Retries, fallbacks, checkpoints, quality gates, and human review are part of the design when the workflow matters.
 
-I’m particularly drawn to problems where **AI has to integrate with existing software systems and earn trust through measurable behavior**.
+That is the approach I try to bring to every AI system I build.
+
+## Currently Looking For
+
+I am interested in **Applied AI Engineer** roles focused on agentic systems, LLM engineering, retrieval, evaluation, AI reliability, and AI-powered engineering tools.
+
+I am especially interested in teams where AI has to work with real software systems and where engineering quality matters as much as the model itself.
 
 ## Connect
 
 [LinkedIn](https://www.linkedin.com/in/aryan-nishen/) · [Email](mailto:aryannishen27@gmail.com) · [GitHub](https://github.com/nishenaryan14)
 
-<sub>Building AI systems that move beyond demos and into useful engineering workflows.</sub>
+<sub>Building useful AI systems, one workflow at a time.</sub>
